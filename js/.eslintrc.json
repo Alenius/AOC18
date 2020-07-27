@@ -6,7 +6,7 @@
   "extends": ["standard", "prettier"],
   "parserOptions": {
     "ecmaVersion": 11,
-    "sourceType": "module"
+    "sourceType": "script"
   },
   "rules": {}
 }
