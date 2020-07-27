@@ -1,0 +1,22 @@
+{
+  "name": "aoc18",
+  "version": "1.0.0",
+  "description": "advent of code 2018",
+  "main": "index.js",
+  "repository": "https://github.com/Alenius/aoc18",
+  "author": "Adam Alenius",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^7.5.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-config-standard": "^14.1.1",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1"
+  },
+  "dependencies": {
+    "nodemon": "^2.0.4",
+    "ramda": "^0.27.0"
+  }
+}
