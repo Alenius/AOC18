@@ -4,18 +4,11 @@ const {
   uniq,
   includes,
   sort,
-  subtract,
-  map,
-  gt,
   comparator,
   lt,
-  findIndex,
   reduce,
   indexOf,
-  equals,
-  remove,
   head,
-  join,
   split,
 } = require('ramda')
 
