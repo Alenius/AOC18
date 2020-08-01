@@ -81,7 +81,6 @@ const part1 = (input) => {
     const noOfOccurrances = filter(equals(value), trimmedFlattened).length
     if (noOfOccurrances === actualSize) notOverlapped = { value, actualSize }
   }, uniqueTrimmed)
-  console.timeEnd('1')
   return { noOfOverlap, notOverlapped }
 }
 
