@@ -72,15 +72,16 @@ const part1 = (input) => {
   )
   const uniqueTrimmed = uniq(trimmedFlattened)
   let notOverlapped
-  // not exactly optimized, takes plus 1 min to run
+  // not exactly optimized, takes ish 2 min to run
   forEach((value) => {
     if (value === 'X' || value === '.' || !value) return
     const ix = value - 1
-    const instructionSize = instructions[ix].size // value and index are the same
+    const instructionSize = instructions[ix].size
     const actualSize = instructionSize.x * instructionSize.y
     const noOfOccurrances = filter(equals(value), trimmedFlattened).length
     if (noOfOccurrances === actualSize) notOverlapped = { value, actualSize }
   }, uniqueTrimmed)
+  console.timeEnd('1')
   return { noOfOverlap, notOverlapped }
 }
 
